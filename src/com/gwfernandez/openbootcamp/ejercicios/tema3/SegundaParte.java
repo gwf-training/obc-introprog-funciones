@@ -11,12 +11,9 @@ package com.gwfernandez.openbootcamp.ejercicios.tema3;
  */
 public class SegundaParte {
     public static void main(String[] args) {
-        Coche coche = new Coche();
-        coche.addPuerta();
-        coche.addPuerta();
-        coche.addPuerta();
-        coche.addPuerta();
-        System.out.println("cantidad puertas: " + coche.getCantidadPuertas());
+        Coche miCoche = new Coche();
+        miCoche.addPuerta();
+        System.out.println("cantidad puertas: " + miCoche.getCantidadPuertas());
     }
 }
 
